@@ -67,5 +67,17 @@
       "postalCode": "74047",
       "country": "US"
     }
+  ],
+  "communication": [
+    {
+      "language": {
+        "coding": [
+          {
+            "code": "nl-NL",
+            "system": "urn:ietf:bcp:47"
+          }
+        ]
+      }
+    }
   ]
 }
