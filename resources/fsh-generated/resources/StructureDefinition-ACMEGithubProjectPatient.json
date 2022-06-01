@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ACMEGithubProjectPatient",
-  "url": "http://fake-acme.org/fhir//StructureDefinition/ACMEGithubProjectPatient",
+  "url": "http://fake-acme.org/fhir/StructureDefinition/ACMEGithubProjectPatient",
   "version": "1.0.0",
   "name": "ACMEGithubProjectPatient",
   "status": "draft",
@@ -54,7 +54,7 @@
             "severity": "error",
             "human": "The Patient should be identifiable",
             "expression": "name.exists() or identifier.exists()",
-            "source": "http://fake-acme.org/fhir//StructureDefinition/ACMEGithubProjectPatient"
+            "source": "http://fake-acme.org/fhir/StructureDefinition/ACMEGithubProjectPatient"
           }
         ]
       },
@@ -78,7 +78,7 @@
         "path": "Patient.communication.language",
         "binding": {
           "strength": "required",
-          "valueSet": "http://fake-acme.org/fhir//ValueSet/DutchOnlyVS"
+          "valueSet": "http://fake-acme.org/fhir/ValueSet/DutchOnlyVS"
         }
       }
     ]
