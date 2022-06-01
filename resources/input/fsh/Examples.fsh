@@ -15,7 +15,7 @@ Usage: #example
 * name.family = "Shaw"
 * name.given[+] = "Amy"
 * name.given[+] = "V."
-* telecom[0].system = #phone
+* telecom[+].system = #phone
 * telecom[=].value = "555-555-5555"
 * telecom[=].use = #home
 * telecom[+].system = #email
@@ -27,3 +27,5 @@ Usage: #example
 * address.state = "OK"
 * address.postalCode = "74047"
 * address.country = "US"
+* communication
+  * language = $BCP47#nl-NL
