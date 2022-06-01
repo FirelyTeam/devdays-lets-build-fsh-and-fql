@@ -1,4 +1,4 @@
-canonical: http://fake-acme.org/fhir/
+canonical: http://fake-acme.org/fhir
 version: 1.0.0
 fhirVersion: 4.0.1
 FSHOnly: true
