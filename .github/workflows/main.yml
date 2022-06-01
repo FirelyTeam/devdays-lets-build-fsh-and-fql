@@ -45,7 +45,7 @@ jobs:
           DOTNET_VALIDATION_ENABLED: false
           JAVA_VALIDATION_ENABLED: false
           SUSHI_ENABLED: true
-          SUSHI_OPTIONS: Resources/
+          SUSHI_OPTIONS: resources/
 
       - name: Add & Commit
         uses: EndBug/add-and-commit@v7
