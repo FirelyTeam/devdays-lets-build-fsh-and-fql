@@ -21,11 +21,6 @@
         "text": "Medical Record Number"
       },
       "value": "1032702"
-    },
-    {
-      "use": "usual",
-      "system": "https://fake-acme.org/fhir/NamingSystem/Patient-Identifier",
-      "value": "1032702"
     }
   ],
   "extension": [
