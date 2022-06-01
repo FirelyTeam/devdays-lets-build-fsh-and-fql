@@ -3,14 +3,11 @@ InstanceOf: ACMEbasePatient
 Usage: #example
 * extension.url = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
 * extension.valueCode = #F
-* identifier[+].use = #usual
-* identifier[=].type = http://terminology.hl7.org/CodeSystem/v2-0203#MR "Medical Record Number"
-* identifier[=].type.text = "Medical Record Number"
-* identifier[=].system = "http://hospital.smarthealthit.org"
-* identifier[=].value = "1032702"
-* identifier[+].use = #usual
-* identifier[=].system = "https://fake-acme.org/fhir/NamingSystem/Patient-Identifier"
-* identifier[=].value = "1032702"
+* identifier[ACMEcorpIdentifier].use = #usual
+* identifier[ACMEcorpIdentifier].type = http://terminology.hl7.org/CodeSystem/v2-0203#MR "Medical Record Number"
+* identifier[ACMEcorpIdentifier].type.text = "Medical Record Number"
+* identifier[ACMEcorpIdentifier].system = "https://fake-acme.org/fhir/NamingSystem/Patient-Identifier"
+* identifier[ACMEcorpIdentifier].value = "1032702"
 * active = true
 * name.family = "Shaw"
 * name.given[+] = "Amy"
