@@ -9,3 +9,4 @@ To run this project locally you need to:
 1. Install and setup [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 1. Setup the FHIR Shorthand compiler, via [SUSHI](https://github.com/FHIR/sushi)
 1. Run ``sushi resources/``
+1. The FHIR profiles and examples should be created by SUSHI in ``resources/fsh-generated``
